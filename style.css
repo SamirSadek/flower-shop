@@ -5,7 +5,7 @@ body {
 .banner {
     display: flex;
     background-color: #E554731A;
-    height: 100vh;
+    height: 80vh;
     align-items: center;
     justify-content: space-between;
     padding: 0px 240px;
@@ -24,10 +24,11 @@ body {
     font-style: normal;
 }
 
-.banner-description {
+.content-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 
 .btn-primary {
@@ -41,7 +42,55 @@ body {
 
 }
 
-.banner-image{
- height: 100vh;
+.banner-image {
+    height: 80vh;
+}
+
+.featured {
+    text-align: center;
+    height: 100vh;
+    padding: 100px 220px 100px 220px;
+
 
 }
+
+.content-header {
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.featured-image-section {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 100px;
+    width: 100vh;
+}
+
+figure img{
+    width: 100%;
+    height: 30%;
+    border-radius: 300px 300px 0px 0px;
+    padding: 110px 75px 0px 75px;
+
+}
+figcaption {
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: 700;
+    text-align: center;
+}
+.image-design-one {
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.image-design-two {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.image-design-three {
+    background: rgba(71, 125, 17, 0.15);
+}
+
