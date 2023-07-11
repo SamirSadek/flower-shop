@@ -125,3 +125,24 @@ span{
     text-align: center;
     padding: 50px 220px;
 }
+footer{
+    text-align: center;
+    background-color: #111010;
+    padding: 130px 0px;
+}
+.footer-header{
+    color: white;
+    font-size: 48px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    font-weight: 400;
+}
+.copyright-content{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    font-weight: 400;
+}
+
