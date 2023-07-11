@@ -49,7 +49,7 @@ body {
 .featured {
     text-align: center;
     height: 100vh;
-    padding: 100px 220px 100px 220px;
+    padding: 50px 220px 0px 220px;
 
 
 }
@@ -79,7 +79,8 @@ figcaption {
     margin-top: 20px;
     text-decoration: underline;
     font-weight: 700;
-    text-align: center;
+    text-align: right;
+    margin-bottom: 100px;
 }
 .image-design-one {
     background: rgba(167, 33, 98, 0.15);
@@ -93,4 +94,15 @@ figcaption {
 .image-design-three {
     background: rgba(71, 125, 17, 0.15);
 }
-
+.delivery-section{
+    display: flex;
+    height: 200px;
+justify-content:center;
+width: 1000px;
+background: rgba(39, 39, 39, 0.05);
+margin: auto;
+gap: 20px;
+padding-top: 60px;
+}
+.icons{
+justify-content: center;}
