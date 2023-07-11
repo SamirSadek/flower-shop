@@ -120,12 +120,16 @@ span{
     background: rgba(229, 84, 115, 0.05);
     height: 30vh;
     margin-top: 130px;
+    text-align: center;
 }
 .instagram{
     text-align: center;
     padding: 50px 220px;
     display: inline;
+    margin:  220px;
+
 }
+
 footer{
     text-align: center;
     background-color: #111010;
@@ -142,7 +146,7 @@ footer{
     font-weight: 400;
 }
 .copyright-content{
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.40);
     font-size: 15px;
     font-weight: 400;
 }
@@ -155,3 +159,17 @@ footer{
     width: 100vh;
     margin:  100px auto ;
 }
+.text-area{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 8px;
+
+}
+.subscribe{
+    display: flex;
+justify-content:center;
+gap: 10px;
+}
+
