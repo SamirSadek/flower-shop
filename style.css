@@ -124,6 +124,7 @@ span{
 .instagram{
     text-align: center;
     padding: 50px 220px;
+    display: inline;
 }
 footer{
     text-align: center;
@@ -145,4 +146,12 @@ footer{
     font-size: 15px;
     font-weight: 400;
 }
-
+.latest-deal{
+    text-align: center;
+    background-image: url(assets/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 100px;
+    width: 100vh;
+    margin:  100px auto ;
+}
