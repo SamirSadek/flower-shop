@@ -97,7 +97,8 @@ figcaption {
 .delivery-section{
     display: flex;
     height: 200px;
-justify-content:center;
+justify-content:space-around;
+align-items: center;
 width: 1000px;
 background: rgba(39, 39, 39, 0.05);
 margin: auto;
@@ -106,3 +107,20 @@ padding-top: 60px;
 }
 .icons{
 justify-content: center;}
+
+span{
+    color: red;
+}
+
+.hot-deal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 220px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 30vh;
+    margin-top: 130px;
+}
+.hot-deal-left{
+    
+}
